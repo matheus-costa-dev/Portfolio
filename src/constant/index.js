@@ -161,7 +161,10 @@ export const PROJECTS_CONTENT = [
 
 
 export const CONTACT_CONTENT = {
-  Address: "Rua Waldir Tavares, Itaipuaçu -Maricá/RJ Brasil",
+  Address: "Rua Waldir Tavares",
+  city: "Itaipuaçu - Maricá",
+  state: "Rio de Janeiro",
+  country: "Brasil",
   Phone: "21964807239",
   email: "dev.matheuspc@gmail.com"
 }
