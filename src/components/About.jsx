@@ -1,6 +1,6 @@
 import { SepareteContent, SectionTitle, slideXMotion } from "./Utility"
 import { ABOUT_ME } from "../constant"
-import imgSecundary from "../assets/profile.jpeg"
+import aboutImg from "../assets/aboutImg.jpg"
 import { motion } from "motion/react"
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
                             variants={slideXMotion(-100,.25)}
                             initial={"hidden"}
                             whileInView={"visible"}
-                            className="rounded-4xl mx-auto grayscale-25" src={imgSecundary} alt="foto secundaria" />
+                            className="rounded-4xl mx-auto grayscale-25" src={aboutImg} alt="foto secundaria" />
                     </div>
                     <motion.div
                         variants={slideXMotion(100,.5)}
