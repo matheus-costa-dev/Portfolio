@@ -1,0 +1,76 @@
+[
+  {
+    "name": "authPage",
+    "description": "Aplicação de controle de acesso de usuários registrados",
+    "url": "https://github.com/matheus-costa-dev/authPage",
+    "langs": {
+      "JavaScript": 0.987,
+      "HTML": 0.012,
+      "CSS": 0.001
+    },
+    "created": "2025-03-04T02:40:14.000Z",
+    "updated": "2025-03-14T20:34:47.000Z",
+    "homepage": "https://auth-page-gilt.vercel.app"
+  },
+  {
+    "name": "churraspy",
+    "description": "Aplicação que  visa calcular o que será necessário para realizar um churrasco. Os dados dos alimentos e bebidas são oriundos de um webscrapping feito no site do supermercado princesa e armazenado  no banco de dados",
+    "url": "https://github.com/matheus-costa-dev/churraspy",
+    "langs": {
+      "Python": 0.442,
+      "HTML": 0.347,
+      "CSS": 0.122,
+      "JavaScript": 0.089
+    },
+    "created": "2025-02-10T14:49:35.000Z",
+    "updated": "2025-03-18T13:23:01.000Z",
+    "homepage": "https://matheuspc.pythonanywhere.com/"
+  },
+  {
+    "name": "Gerenciador-Tarefas",
+    "description": "É uma aplicação simples construída com React para ajudar você a gerenciar suas tarefas diárias. Com ela, você pode adicionar, remover e marcar tarefas como concluídas de maneira prática e eficiente.",
+    "url": "https://github.com/matheus-costa-dev/Gerenciador-Tarefas",
+    "langs": {
+      "JavaScript": 0.968,
+      "HTML": 0.029,
+      "CSS": 0.003
+    },
+    "created": "2025-03-02T23:45:54.000Z",
+    "updated": "2025-03-14T13:43:05.000Z",
+    "homepage": "https://gerenciador-tarefas-inky.vercel.app"
+  },
+  {
+    "name": "One-Oracle",
+    "description": "Um projeto o qual contêm todos os aprendizados do programa One da Oracle",
+    "url": "https://github.com/matheus-costa-dev/One-Oracle",
+    "langs": {
+      "HTML": 0.372,
+      "JavaScript": 0.33,
+      "CSS": 0.298
+    },
+    "created": "2025-02-17T14:19:50.000Z",
+    "updated": "2025-03-01T19:50:44.000Z",
+    "homepage": "https://matheus-costa-dev.github.io/One-Oracle/"
+  },
+  {
+    "name": "Portfolio",
+    "description": "Uma aplicação web sobre meu portfolio com todas as tecnologias e técnicas mais recentes que aprendi",
+    "url": "https://github.com/matheus-costa-dev/Portfolio",
+    "langs": {},
+    "created": "2025-03-19T02:16:09.000Z",
+    "updated": "2025-03-19T02:16:09.000Z",
+    "homepage": null
+  },
+  {
+    "name": "TCC",
+    "description": "Tranalho de conclusão de curso aplicando a moderna teoria de portfolio no mercado de criptmoedas",
+    "url": "https://github.com/matheus-costa-dev/TCC",
+    "langs": {
+      "R": 0.639,
+      "TeX": 0.361
+    },
+    "created": "2025-02-16T23:56:20.000Z",
+    "updated": "2025-03-08T01:48:25.000Z",
+    "homepage": ""
+  }
+]
