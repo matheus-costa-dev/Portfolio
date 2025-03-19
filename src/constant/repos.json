@@ -56,9 +56,13 @@
     "name": "Portfolio",
     "description": "Uma aplicação web sobre meu portfolio com todas as tecnologias e técnicas mais recentes que aprendi",
     "url": "https://github.com/matheus-costa-dev/Portfolio",
-    "langs": {},
+    "langs": {
+      "JavaScript": 0.97,
+      "CSS": 0.016,
+      "HTML": 0.014
+    },
     "created": "2025-03-19T02:16:09.000Z",
-    "updated": "2025-03-19T02:16:09.000Z",
+    "updated": "2025-03-19T02:21:48.000Z",
     "homepage": null
   },
   {

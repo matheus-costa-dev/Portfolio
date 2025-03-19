@@ -8,7 +8,7 @@ function About() {
 
         <SepareteContent>
             <section className="flex flex-col gap-20 my-10">
-                <SectionTitle>Sobre {" "} <span className="text-neutral-500">mim</span> </SectionTitle>
+                <SectionTitle><span className="text-neutral-500">Sobre </span>{" "}mim </SectionTitle>
                 <div className="flex flex-col md:flex-row items-center gap-10">
                     <div className="w-full lg:w-1/3">
                         <motion.img
