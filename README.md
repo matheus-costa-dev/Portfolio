@@ -10,4 +10,9 @@ Meu portfólio construído com React e Framer Motion, é uma vitrine das minhas 
 
 ## Demonstração
 
-[Gravação de tela de 2025-03-25 10-38-51.webm](https://github.com/user-attachments/assets/34d664f5-919e-4745-bf5c-0bc8999750b9)
+[Gravação de tela de 2025-03-25 10-38-51.webm](https://github.com/user-attachmenLs/assets/34d664f5-919e-4745-bf5c-0bc8999750b9)
+
+## Novas Features a ser implementado
+
+- Alteração de idioma: Ingles, Português, Chines
+- modo: Light/Dark
