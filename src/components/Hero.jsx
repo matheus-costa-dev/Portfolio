@@ -8,7 +8,7 @@ function Hero() {
         <SepareteContent>
             <div className="flex flex-col md:flex-row my-20 gap-4 items-center">
 
-                <div className="w-full lg:w-1/2 flex flex-col gap-4 items-center ">
+                <div className="w-full lg:w-1/2 flex flex-col gap-4  ">
                     <motion.h1 
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
@@ -23,7 +23,7 @@ function Hero() {
                     initial={{x:-100, opacity:0}}
                     whileInView={{x:0, opacity:1}}
                     transition={{duration:2, delay:1}}
-                    className="font-light tracking-wider max-w-xl lg:px-10">{HERO_CONTENT.brief}</motion.p>
+                    className="font-light tracking-wider max-w-xl">{HERO_CONTENT.brief}</motion.p>
                 </div>
                 <div className="w-full lg:w-1/2 p-5">
                     <motion.img 

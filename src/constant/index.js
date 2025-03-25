@@ -1,5 +1,3 @@
-import { getRepos } from "./repo.js"
-
 export const NAVBAR_CONTENT = {
   logo: "MC",
   links: {
@@ -146,8 +144,8 @@ export const PROJECTS_CONTENT = [
     "homepage": null
   },
   {
-    "name": "TCC",
-    "description": "Tranalho de conclusão de curso aplicando a moderna teoria de portfolio no mercado de criptmoedas",
+    "name": "Markowitz",
+    "description": "Aplicando a moderna teoria de portfolio de markowitz no mercado de criptmoedas.",
     "url": "https://github.com/matheus-costa-dev/TCC",
     "langs": {
       "R": 0.639,
