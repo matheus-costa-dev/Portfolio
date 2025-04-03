@@ -78,17 +78,17 @@ fácil acessibilidade no futuro`
 // export const PROJECTS_CONTENT = await getRepos("matheus-costa-dev")
 export const PROJECTS_CONTENT = [
   {
-    "name": "authPage",
-    "description": "Aplicação de controle de acesso de usuários registrados",
-    "url": "https://github.com/matheus-costa-dev/authPage",
+    "name": "TaskMaster",
+    "description": "Um aplicativo web desenvolvido em React para organização pessoal ou em equipe, com:  Interface moderna com efeitos visuais (gradient text, typewriter animation).  Navegação intuitiva (React Router) entre login e página principal.  Design responsivo (Tailwind CSS) para uso em desktop e mobile.  Foco em usabilidade: Botões claros, feedback visual",
+    "url": "https://github.com/matheus-costa-dev/TaskMaster",
     "langs": {
-      "JavaScript": 0.987,
+      "JavaScript": 0.982,
       "HTML": 0.012,
-      "CSS": 0.001
+      "CSS": 0.006
     },
-    "created": "2025-03-04T02:40:14.000Z",
-    "updated": "2025-03-14T20:34:47.000Z",
-    "homepage": "https://auth-page-gilt.vercel.app"
+    "created": "2025-04-01T17:47:26.000Z",
+    "updated": "2025-04-03T00:46:01.000Z",
+    "homepage": "https://taskmaster-theta-gray.vercel.app/"
   },
   {
     "name": "churraspy",
@@ -101,21 +101,44 @@ export const PROJECTS_CONTENT = [
       "JavaScript": 0.089
     },
     "created": "2025-02-10T14:49:35.000Z",
-    "updated": "2025-03-18T13:23:01.000Z",
+    "updated": "2025-04-02T13:23:43.000Z",
     "homepage": "https://matheuspc.pythonanywhere.com/"
   },
   {
-    "name": "Gerenciador-Tarefas",
-    "description": "É uma aplicação simples construída com React para ajudar você a gerenciar suas tarefas diárias. Com ela, você pode adicionar, remover e marcar tarefas como concluídas de maneira prática e eficiente.",
-    "url": "https://github.com/matheus-costa-dev/Gerenciador-Tarefas",
+    "name": "Portfolio",
+    "description": "Portfólio web construído com React e Framer Motion, destacando minhas habilidades em desenvolvimento front-end. Utiliza Tailwind CSS para design responsivo e Vite para otimização. Animações fluidas com Framer Motion e tipografia do Google Fonts.",
+    "url": "https://github.com/matheus-costa-dev/Portfolio",
     "langs": {
-      "JavaScript": 0.968,
-      "HTML": 0.029,
-      "CSS": 0.003
+      "JavaScript": 0.97,
+      "CSS": 0.015,
+      "HTML": 0.014
     },
-    "created": "2025-03-02T23:45:54.000Z",
-    "updated": "2025-03-14T13:43:05.000Z",
-    "homepage": "https://gerenciador-tarefas-inky.vercel.app"
+    "created": "2025-03-19T02:16:09.000Z",
+    "updated": "2025-03-25T15:08:36.000Z",
+    "homepage": "https://portfolio-brown-gamma-63.vercel.app"
+  },
+  {
+    "name": "divulgacao-redes-sociais",
+    "description": "Aplicação que faz o download de shorts do youtube para ser publicado nas redes sociasi usando IA para gerar os textos com hashtags apropriadas",
+    "url": "https://github.com/matheus-costa-dev/divulgacao-redes-sociais",
+    "langs": {
+      "Python": 1
+    },
+    "created": "2025-03-22T12:16:28.000Z",
+    "updated": "2025-03-25T14:20:48.000Z",
+    "homepage": ""
+  },
+  {
+    "name": "TCC",
+    "description": "Tranalho de conclusão de curso aplicando a moderna teoria de portfolio no mercado de criptmoedas",
+    "url": "https://github.com/matheus-costa-dev/TCC",
+    "langs": {
+      "R": 0.639,
+      "TeX": 0.361
+    },
+    "created": "2025-02-16T23:56:20.000Z",
+    "updated": "2025-03-08T01:48:25.000Z",
+    "homepage": ""
   },
   {
     "name": "One-Oracle",
@@ -129,34 +152,8 @@ export const PROJECTS_CONTENT = [
     "created": "2025-02-17T14:19:50.000Z",
     "updated": "2025-03-01T19:50:44.000Z",
     "homepage": "https://matheus-costa-dev.github.io/One-Oracle/"
-  },
-  {
-    "name": "Portfolio",
-    "description": "Uma aplicação web sobre meu portfolio com todas as tecnologias e técnicas mais recentes que aprendi",
-    "url": "https://github.com/matheus-costa-dev/Portfolio",
-    "langs": {
-      "JavaScript": 0.97,
-      "CSS": 0.016,
-      "HTML": 0.014
-    },
-    "created": "2025-03-19T02:16:09.000Z",
-    "updated": "2025-03-19T02:21:48.000Z",
-    "homepage": null
-  },
-  {
-    "name": "Markowitz",
-    "description": "Aplicando a moderna teoria de portfolio de markowitz no mercado de criptmoedas.",
-    "url": "https://github.com/matheus-costa-dev/TCC",
-    "langs": {
-      "R": 0.639,
-      "TeX": 0.361
-    },
-    "created": "2025-02-16T23:56:20.000Z",
-    "updated": "2025-03-08T01:48:25.000Z",
-    "homepage": ""
   }
 ]
-
 
 export const CONTACT_CONTENT = {
   Address: "Rua Waldir Tavares",

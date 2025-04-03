@@ -3,7 +3,7 @@ import { PROJECTS_CONTENT } from "../constant/index"
 import { FaGithub } from "react-icons/fa"
 import { LuExternalLink } from "react-icons/lu";
 import {format} from "date-fns"
-import {motion} from "motion/react"
+import { motion } from "motion/react";
 
 
 function Projects() {
@@ -20,23 +20,42 @@ function Projects() {
                                 initial={"hidden"}
                                 whileInView={"visible"}
                                 className="text-2xl md:text-3xl font-semibold tracking-tight mb-2">{project.name}</motion.h3>
+                                <motion.ul 
+                                variants={slideXMotion(100,.1)}
+                                initial={"hidden"}
+                                whileInView={"visible"}
+                                className="flex flex-wrap gap-2 text-sm font-thin tracking-tight">
+                                    {
+                                        project.langs && Object.entries(project.langs).map(([key, value], index) => {
+                                            return (
+                                                <li key={index}>
+                                                    <span>{key}: </span>
+                                                    <span>{ (value * 100).toFixed(1) + "%"}</span>
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                </motion.ul>
+                                <motion.span
+                                variants={slideXMotion(-100,.4)}
+                                initial={"hidden"}
+                                whileInView={"visible"}
+                                >{project.description}</motion.span>
+                                
                                 <motion.p
                                 variants={slideXMotion(100,.2)}
                                 initial={"hidden"}
                                 whileInView={"visible"}
+                                className="font-thin"
                                 >Criado: {format(new Date(project.created), "dd/MM/yyyy")} </motion.p>
                                 <motion.p
                                 variants={slideXMotion(-100,.3)}
                                 initial={"hidden"}
                                 whileInView={"visible"}
+                                className="font-thin"
                                 >Ultima atualização: {format(new Date(project.updated), "dd/MM/yyyy")} </motion.p>
-                                <motion.span
-                                variants={slideXMotion(100,.4)}
-                                initial={"hidden"}
-                                whileInView={"visible"}
-                                >{project.description}</motion.span>
                                 <motion.div 
-                                variants={slideXMotion(-100,.5)}
+                                variants={slideXMotion(100,.5)}
                                 initial={"hidden"}
                                 whileInView={"visible"}
                                 className="flex gap-4 text-2xl">

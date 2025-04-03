@@ -17,6 +17,8 @@ export async function getRepos(username) {
                 return data
             }))
 
+            repos.sort( (a,b) => { return new Date(b.updated) - new Date(a.updated) } )
+
             return repos
         })
         .catch(error => console.log(error))
@@ -48,12 +50,12 @@ async function getRepoLangs(url) {
 
 }
 
-// import {writeFileSync} from "fs"
+import {writeFileSync} from "fs"
 
-// async function writeReposFile() {
-//     const repos = await getRepos("matheus-costa-dev")
-//     const reposJSON = JSON.stringify(repos, null, 2)
-//     writeFileSync("repos.json", reposJSON, "utf-8")
-// }
+async function writeReposFile() {
+    const repos = await getRepos("matheus-costa-dev")
+    const reposJSON = JSON.stringify(repos, null, 2)
+    writeFileSync("repos.json", reposJSON, "utf-8")
+}
 
-// writeReposFile()
+writeReposFile()
