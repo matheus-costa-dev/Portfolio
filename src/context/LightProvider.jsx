@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { LightContext } from "./lightContext"
+import { LightContext } from "./LightContext"
 
 export function LightProvider( {children} ) {
   const [lightMode, setLightMode] = useState(true)
